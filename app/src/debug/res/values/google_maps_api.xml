@@ -1,0 +1,23 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=AB:6B:4F:8C:CA:C9:A0:BB:75:20:77:B1:72:7F:6F:0D:6C:E8:28:3C%3Bcom.emirk.historybook.view
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:com.emirk.historybook.view
+
+    SHA-1 certificate fingerprint:
+    AB:6B:4F:8C:CA:C9:A0:BB:75:20:77:B1:72:7F:6F:0D:6C:E8:28:3C
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyABhIKeVCypw6o9AFIS8s35H52w7RBHR5U</string>
+</resources>

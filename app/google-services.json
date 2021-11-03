@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45678305494",
+    "project_id": "historybook-26a12",
+    "storage_bucket": "historybook-26a12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45678305494:android:650797b1e8f3b01338e977",
+        "android_client_info": {
+          "package_name": "com.emirk.historybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45678305494-ic8sea3ffava7qcjf7adksroaivp0anp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrQ0rStBnZ3Dq29H8gnmar1zVYbNfLcLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45678305494-ic8sea3ffava7qcjf7adksroaivp0anp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

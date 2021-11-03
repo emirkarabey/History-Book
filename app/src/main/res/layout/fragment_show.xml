@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ShowFragment"
+    android:background="@drawable/constrainsarkaplan">
+
+    <ImageView
+        android:id="@+id/showImageView"
+        android:layout_width="385dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/showPlaceText"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/edittextarkaplan"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showImageView" />
+
+    <TextView
+        android:id="@+id/showDateText"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/edittextarkaplan"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showPlaceText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
